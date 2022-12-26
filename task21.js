@@ -1,3 +1,4 @@
+/// O(n) - сложность
 function selectFromInterval(arrayOfNums, firstInt, secondInt){
     if(!Array.isArray(arrayOfNums)) throw new Error("Нужно ввести массив из чисел");
     if(!isFinite(firstInt) || !isFinite(secondInt)) throw new Error("Введите числа для указания интервала!");
