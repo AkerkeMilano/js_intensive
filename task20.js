@@ -1,3 +1,5 @@
+/// O(n) - сложность
+
 function makeObjectDeepCopy (obj) {
     if(obj === null) return null;
     const clonedObj = Object.assign({}, obj);
